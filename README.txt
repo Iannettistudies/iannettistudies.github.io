@@ -1,20 +1,11 @@
-
-Iannetti Studies – Static Site
+Queen of Hearts Favicon
 
 Files:
-- index.html       (homepage)
-- styles.css       (site styles)
-- /assets/hero.jpg (placeholder banner; replace with your wood background image)
-- sitemap.xml      (placeholder; replace with your real sitemap.xml if you have one)
+- favicon.png
 
-GitHub Pages quick deploy:
-1) Go to https://github.com/iannettistudies/iannettistudies.github.io
-2) Click 'Add file' > 'Upload files' and upload everything in this bundle to the repo root.
-3) Commit to main.
-4) Visit https://iannettistudies.github.io/ to verify.
-5) In Namecheap DNS, point your domain (CNAME) at iannettistudies.github.io and add a CNAME file if you want the custom domain.
+How to use on GitHub Pages:
+1) Upload favicon.png to the root of your repository (same folder as index.html).
+2) Add this line inside the <head> of index.html:
+   <link rel="icon" type="image/png" href="favicon.png">
+3) Commit and wait ~1–2 minutes, then hard-refresh (Ctrl/Cmd + Shift + R).
 
-Buttons/Links are already wired for:
-- Google Scholar
-- Zenodo community
-- Soap by Ashley group
