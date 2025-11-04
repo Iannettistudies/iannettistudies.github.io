@@ -8,8 +8,9 @@
 
 *{box-sizing:border-box}
 html,body{margin:0;padding:0}
-body{
-  font-family: "Segoe UI", system-ui, -apple-system, Roboto, Arial, sans-serif;
+body {
+  font-family: 'Lora', serif;
+}
   color:var(--ink);
   background:var(--paper);
   line-height:1.6;
@@ -30,12 +31,48 @@ body{
   display:grid;
   place-items:center;
   text-align:center;
-  color:white;
 }
 
 }
-.hero h1{font-size:64px; margin:0; text-shadow:0 color:#000; }
-.hero .kicker{margin-top:16px; font-weight:600;background:transparent; padding:6px 12px; border-radius:8px; color:#000; }
+/* Banner / hero */
+.hero{
+  background: url('./hearts_diamonds_banner.png') center/cover no-repeat;
+  min-height: 340px;
+  display: flex;                 /* center content */
+  flex-direction: column;
+  justify-content: center;       /* vertical center */
+  align-items: center;           /* horizontal center */
+  text-align: center;
+  color: #111;                   /* black/dark text */
+}
+
+/* Title */
+.hero h1{
+  font-family: 'Lora', serif;
+  font-size: 72px;               /* bigger title */
+  font-weight: 700;
+  line-height: 1.05;
+  margin: 0;
+  text-shadow: 0 1px 2px rgba(255,255,255,0.6); /* subtle pop; optional */
+}
+
+/* Subtitle */
+.hero .kicker{
+  font-family: 'Lora', serif;
+  font-size: 28px;               /* bigger subtitle */
+  font-weight: 600;
+  margin-top: 12px;
+  background: transparent;
+  padding: 0;
+}
+
+/* Responsive sizes for phones */
+@media (max-width: 640px){
+  .hero{ min-height: 260px; }
+  .hero h1{ font-size: 42px; }
+  .hero .kicker{ font-size: 18px; }
+}
+
 .container{max-width:1000px; margin:32px auto; padding:0 18px}
 h2{margin:32px 0 8px; font-size:24px}
 hr{border:0;border-top:1px solid #ddd;margin:26px 0}
