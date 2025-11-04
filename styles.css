@@ -70,12 +70,15 @@ button:hover, .btn:hover{
 .footer::after{
   content:"";
   position:absolute;
-  left:0; right:0; bottom:0;
+  left:0;
+  right:0;
+  bottom:0;
   height:50px;
-  background:url('/assets/spades_clubs_border.png') repeat-x center;
+  background:url('/spades_clubs_border.png') repeat-x center;
   background-size: contain;
   pointer-events:none;
 }
+
 
 
 .footer .muted{opacity:.85}
