@@ -67,17 +67,7 @@ button:hover, .btn:hover{
     color:#000;
     text-align:center;
 }
-.footer::after{
-  content:"";
-  position:absolute;
-  left:0;
-  right:0;
-  bottom:0;
-  height:50px;
-  background:url('/spades_clubs_border.png') repeat-x center;
-  background-size: contain;
-  pointer-events:none;
-}
+
 
 
 
