@@ -58,17 +58,26 @@ button:hover, .btn:hover{
 }
 
 .btn:hover{filter:brightness(1.05)}
-.footer{
-    margin-top:36px;
-    background:#ffffff; /* white like a card */
-    border-top:2px solid #b30000; /* red playing-card border */
-    padding:24px 18px;
-    font-size:.9rem;
-    color:#000;
-    text-align:center;
+
+
+/* Footer area */
+.footer {
+  background: #ffffff;
+  border-top: 2px solid #b30000; /* red top edge like a card */
+  text-align: center;
+  padding: 20px 10px;
+  font-size: .9rem;
+  color: #000;
+  margin-top: auto;
 }
 
-
+/* Thin banner at the bottom of footer */
+.card-banner {
+  height: 40px; /* Adjust height of strip */
+  background: #ffffff url('spades_clubs_border.png') repeat-x center;
+  background-size: auto 32px; /* scale image to fit nicely */
+  border-top: 1px solid #ddd; /* soft separator line */
+}
 
 
 .footer .muted{opacity:.85}
