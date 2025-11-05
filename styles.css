@@ -10,7 +10,6 @@
 html,body{margin:0;padding:0}
 body {
   font-family: 'Lora', serif;
-}
   color:var(--ink);
   background:var(--paper);
   line-height:1.6;
