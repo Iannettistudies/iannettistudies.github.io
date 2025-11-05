@@ -15,16 +15,42 @@ body {
   background:var(--paper);
   line-height:1.6;
 }
+/* NAVBAR — force visible & spaced */
 .site-nav{
-  position:sticky; top:0; z-index:10;
-  background:var(--plum);
-  color:white;
-  display:flex; align-items:center; justify-content:space-between;
-  padding:10px 22px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: var(--plum) !important;   /* play-ing card red */
+  color: #fff !important;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 22px;
+  border-bottom: 1px solid rgba(0,0,0,.08);
 }
-.site-nav .brand{font-weight:700; letter-spacing:.5px}
-.site-nav a{color:white; text-decoration:none; margin-left:18px; opacity:.95}
-.site-nav a:hover{opacity:1; text-decoration:underline}
+
+.site-nav .brand{
+  font-family: 'Lora', serif;
+  font-weight: 700;
+  letter-spacing: .5px;
+}
+
+.site-nav .links{
+  display: flex;
+  gap: 22px;                 /* ensures links don’t collapse */
+}
+
+.site-nav a{
+  color: #fff !important;    /* white text on red bar */
+  text-decoration: none;
+  opacity: .95;
+}
+
+.site-nav a:hover{
+  opacity: 1;
+  text-decoration: underline;
+}
+
 /* Banner / hero */
 .hero{
   background: url('./hearts_diamonds_banner.png') center/cover no-repeat;
