@@ -125,46 +125,42 @@ button:hover, .btn:hover{
   margin-top: auto;
 }
 
-/* Thin banner at the bottom of footer */
-.card-banner {
-  height: 40px; /* Adjust height of strip */
-  background: #ffffff url('spades_clubs_border.png') repeat-x center;
-  background-size: auto 32px; /* scale image to fit nicely */
-  border-top: 1px solid #ddd; /* soft separator line */
+/* ========================================= */
+/* ORCID badge – footer only                 */
+/* ========================================= */
+.orcid-wrap { 
+  margin-top: 10px; 
+  text-align: center; 
+}
+
+footer .orcid-link { 
+  display: inline-flex; 
+  align-items: center; 
+  gap: 8px; 
+  text-decoration: none; 
+  font-size: 0.9rem; 
+}
+
+footer .orcid-link:hover .orcid-text { 
+  text-decoration: underline; 
+}
+
+/* Lock the SVG size & colors (prevents the giant black circle) */
+footer .orcid-icon { 
+  width: 20px; 
+  height: 20px; 
+  display: inline-block; 
+}
+
+footer .orcid-icon circle { 
+  fill: #A6CE39 !important;  /* ORCID green */
+}
+
+footer .orcid-icon path { 
+  fill: #fff !important; 
 }
 
 
-.footer .muted{opacity:.85}
-.footer a{color:#4e3d53}
-footer a { color:#4e3d53; }
 
-/* ORCID badge link styling */
-.orcid-wrap {
-  margin-top: 8px;
-  text-align: center;
-}
 
-.orcid-link {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  text-decoration: none;
-  font-size: 0.9rem;
-}
 
-.orcid-link:hover .orcid-text {
-  text-decoration: underline;
-}
-
-.orcid-icon {
-  width: 18px;
-  height: 18px;
-}
-
-.orcid-icon circle {
-  fill: #A6CE39; /* ORCID green */
-}
-
-.orcid-icon path {
-  fill: #fff;
-}
