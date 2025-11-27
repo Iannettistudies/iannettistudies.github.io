@@ -79,19 +79,22 @@
       text-decoration: underline;
     }
 
-    /* Bottom banner */
-    .card-banner {
-      background: #000;
-      padding: 20px 0;
-      text-align: center;
-      margin-top: 40px;
-    }
+/* Bottom banner */
+.card-banner {
+  background: #ffffff; /* white background */
+  padding: 25px 0;
+  text-align: center;
+  margin-top: 50px;
+  border-top: 2px solid #000; /* optional thin black line – looks professional */
+}
 
-    .card-banner span {
-      color: #fff;
-      font-size: 32px;
-      letter-spacing: 18px;
-    }
+.card-banner .card-icons {
+  color: #000; /* black symbols */
+  font-size: 38px;
+  letter-spacing: 20px;  /* perfect spacing */
+  font-family: 'Lora', serif;
+}
+
   </style>
 </head>
 
@@ -149,10 +152,10 @@
       symbolic systems.
     </p>
 
-    <!-- Bottom banner with alternating spade/club symbols -->
     <div class="card-banner">
-      <span>♠ ♣ ♠ ♣ ♠ ♣ ♠ ♣ ♠ ♣</span>
-    </div>
+  <span class="card-icons">♠ ♣ ♠ ♣ ♠ ♣ ♠ ♣ ♠ ♣</span>
+</div>
+
   </main>
 </body>
 </html>
