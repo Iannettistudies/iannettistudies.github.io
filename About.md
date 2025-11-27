@@ -1,11 +1,8 @@
 <style>
-/* Hides "Iannetti Studies" and its link on this page only */
-.brand, .brand a, nav .brand, nav .brand a {
+/* Hide the theme header (blue "iannettistudies" + red line) on this page only */
+header,
+.site-header {
     display: none !important;
-    visibility: hidden !important;
-    height: 0 !important;
-    margin: 0 !important;
-    padding: 0 !important;
 }
 </style>
 
