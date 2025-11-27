@@ -1,7 +1,11 @@
 <style>
-/* Hides the blue “Iannetti Studies” link ONLY on this page */
-.site-nav .brand {
+/* Hides "Iannetti Studies" and its link on this page only */
+.brand, .brand a, nav .brand, nav .brand a {
     display: none !important;
+    visibility: hidden !important;
+    height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
 }
 </style>
 
