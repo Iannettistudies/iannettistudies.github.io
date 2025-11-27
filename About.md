@@ -1,3 +1,9 @@
+<style>
+h1.site-title, .site-title {
+    display: none !important;
+}
+</style>
+
 <a href="https://iannettistudies.github.io/" style="
   display:inline-block;
   padding:10px 18px;
