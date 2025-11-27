@@ -1,5 +1,6 @@
 <style>
-h1.site-title, .site-title {
+/* Hides the blue “Iannetti Studies” link ONLY on this page */
+.site-nav .brand {
     display: none !important;
 }
 </style>
