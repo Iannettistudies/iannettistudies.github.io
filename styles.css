@@ -164,6 +164,35 @@ footer .orcid-icon circle {
 footer .orcid-icon path { 
   fill: #fff !important; 
 }
+/* --- Homepage section cards --- */
+
+.section-block {
+  max-width: 900px;
+  margin: 32px auto;
+  padding: 22px 26px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+}
+
+/* Headings inside those cards */
+.section-block h2 {
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+/* Small grey helper text */
+.section-note {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Extra spacing between contact text and the list of DOIs */
+.section-divider {
+  margin: 18px 0;
+  border: 0;
+  border-top: 1px solid #e0e0e0;
+}
 
 
 
