@@ -1,0 +1,158 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Applications & Collaboration | Iannetti Studies</title>
+
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <nav class="site-nav">
+    <div class="brand">Iannetti Studies</div>
+
+    <div class="links">
+      <a href="index.html">Home</a>
+      <a href="applications.html">Applications & Collaboration</a>
+    </div>
+  </nav>
+
+  <div class="container">
+
+    <section class="section-block">
+      <h1>A Common Language for Signals</h1>
+
+      <p>
+        The Normalized Frequency Space (NFS) framework was developed to
+        transform signals into a common analytical space, allowing
+        structural relationships to be explored independently of their
+        original scale.
+      </p>
+
+      <p>
+        Originally developed through bioacoustic research, the framework
+        has since been explored across additional signal domains including
+        physiological, neural, and engineering datasets.
+      </p>
+    </section>
+
+    <section class="section-block">
+
+      <h2>The Problem</h2>
+
+      <p>
+        Signals are often studied in isolation because they exist on
+        vastly different scales. Animal vocalizations, ECG recordings,
+        neural activity, machine vibrations, and engineering systems
+        frequently require separate analytical approaches.
+      </p>
+
+      <p>
+        This makes direct comparison difficult and can obscure structural
+        patterns that may exist across systems.
+      </p>
+
+    </section>
+
+    <section class="section-block">
+
+      <h2>The Solution</h2>
+
+      <p>
+        The NFS framework focuses on structural relationships within
+        signals rather than scale alone, allowing different systems to
+        be explored through a shared mathematical reference space.
+      </p>
+
+    </section>
+
+    <section class="section-block">
+
+      <h2>Potential Areas of Interest</h2>
+
+      <ul>
+        <li>Bioacoustics</li>
+        <li>Signal Processing</li>
+        <li>Artificial Intelligence &amp; Machine Learning</li>
+        <li>Physiological Signal Analysis</li>
+        <li>Neural Signal Analysis</li>
+        <li>Predictive Maintenance</li>
+        <li>Machine Monitoring</li>
+        <li>Complex Sensor Systems</li>
+      </ul>
+
+    </section>
+
+    <section class="section-block">
+
+      <h2>Engineering Validation</h2>
+
+      <p>
+        Structural signal analysis was explored on the NASA CMAPSS
+        turbofan degradation dataset to investigate whether structural
+        behavior could provide complementary insight alongside RMS-based
+        approaches.
+      </p>
+
+      <p>
+        Preliminary testing demonstrated early instability behavior in
+        multiple engines and improved consistency when combined with
+        RMS-based analysis.
+      </p>
+
+    </section>
+
+    <section class="section-block">
+
+      <h2>Collaboration Opportunities</h2>
+
+      <p>
+        I am currently interested in connecting with:
+      </p>
+
+      <ul>
+        <li>Researchers</li>
+        <li>Engineers</li>
+        <li>AI and Machine Learning Teams</li>
+        <li>Universities</li>
+        <li>Industry Partners</li>
+        <li>Organizations working with complex signal datasets</li>
+      </ul>
+
+      <p>
+        Areas of interest include research collaboration, applied testing,
+        software development, consulting opportunities, and speaking
+        engagements.
+      </p>
+
+    </section>
+
+    <section class="section-block">
+
+      <h2>Contact</h2>
+
+      <p>
+        Ashley Iannetti<br>
+        Independent Researcher<br>
+        Iannetti Studies
+      </p>
+
+      <p>
+        <a href="mailto:contact@iannettistudies.org">
+          contact@iannettistudies.org
+        </a>
+      </p>
+
+    </section>
+
+  </div>
+
+</body>
+</html>
+```
