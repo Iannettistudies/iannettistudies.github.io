@@ -195,7 +195,55 @@ footer .orcid-icon path {
   border-top: 1px solid #e0e0e0;
 }
 
+/* --- Overall page scale fix --- */
 
+body {
+  font-size: 15px;
+}
+
+.container {
+  max-width: 980px;
+  margin: 28px auto;
+  padding: 0 22px;
+}
+
+.section-block {
+  max-width: 860px;
+  padding: 20px 24px;
+}
+
+.hero {
+  min-height: 250px;
+  padding: 34px 20px 38px;
+}
+
+.hero h1 {
+  font-size: clamp(34px, 4.2vw, 54px);
+  line-height: 1.08;
+  max-width: 980px;
+}
+
+.hero .kicker {
+  font-size: clamp(16px, 1.8vw, 22px);
+}
+
+.latest-update-card {
+  padding: 22px 26px;
+}
+
+.latest-update-wrap {
+  max-width: 1080px;
+  grid-template-columns: 110px minmax(0, 1fr) 145px;
+  gap: 20px;
+}
+
+.animal-side img {
+  max-width: 92px;
+}
+
+.right-animals img {
+  max-width: 88px;
+}
 
 
 
