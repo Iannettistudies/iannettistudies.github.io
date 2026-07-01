@@ -53,32 +53,33 @@ body {
 /* Banner / hero */
 .hero{
   background: url('./hearts_diamonds_banner.png') center/cover no-repeat;
-  min-height: 340px;
-  display: flex;                 /* center content */
+  min-height: 300px;
+  display: flex;
   flex-direction: column;
-  justify-content: center;       /* vertical center */
-  align-items: center;           /* horizontal center */
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  color: #111;                   /* dark text */
-
+  color: #111;
+  padding: 44px 24px;
 }
 
 /* Title */
 .hero h1{
   font-family: 'Lora', serif;
-  font-size: 72px;               /* bigger title */
+  font-size: clamp(42px, 5vw, 64px);
   font-weight: 700;
-  line-height: 1.05;
-  margin: 0;
-  text-shadow: 0 1px 2px rgba(255,255,255,0.6); /* subtle pop; optional */
+  line-height: 1.08;
+  max-width: 1120px;
+  margin: 0 auto;
+  text-shadow: 0 1px 2px rgba(255,255,255,0.65);
 }
 
 /* Subtitle */
 .hero .kicker{
   font-family: 'Lora', serif;
-  font-size: 28px;               /* bigger subtitle */
+  font-size: clamp(18px, 2.2vw, 26px);
   font-weight: 600;
-  margin-top: 12px;
+  margin-top: 14px;
   background: transparent;
   padding: 0;
 }
