@@ -52,15 +52,20 @@ body {
 
 /* Banner / hero */
 .hero{
-  background: url('./hearts_diamonds_banner.png') center/cover no-repeat;
-  min-height: 300px;
+  background-image: url('./hearts_diamonds_banner.png');
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 100% auto;
+  background-color: #ffffff;
+
+  min-height: 280px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
   color: #111;
-  padding: 44px 24px;
+  padding: 42px 24px 46px;
 }
 
 /* Title */
