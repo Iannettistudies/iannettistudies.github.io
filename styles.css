@@ -58,7 +58,7 @@ body {
   background-size: 100% auto;
   background-color: #ffffff;
 
-  min-height: 280px;
+  min-height: 320px;
   display: flex;
   flex-direction: column;
   justify-content: center;
